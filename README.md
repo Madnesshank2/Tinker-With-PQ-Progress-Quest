@@ -1,4 +1,4 @@
-# Tinker With PQ Progress Quest-
+# Tinker With PQ Progress Quest
 Greetings to those that are reading this!
 
 I am LoafGatrWitch or LGW for short.
