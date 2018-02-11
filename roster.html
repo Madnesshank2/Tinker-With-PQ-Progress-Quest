@@ -2,7 +2,7 @@
 <!--
     Author: Loaf Gatr Witch.
     Date: Feb 2, 2018
-    Last Update: Feb 5, 2018.
+    Last Update: Feb 10, 2018.
 -->
 <html>
     <head>
@@ -12,11 +12,12 @@
         <link rel="shortcut icon" type="image/x-icon" href="http://progressquest.com/favicon.ico">
 
         <!-- External Style Sheet. -->
-        <link href="stylesheet.css" rel="stylesheet" type="text/css"/>
+        <link href="css/stylesheet.css" rel="stylesheet" type="text/css"/>
 
         <!-- Boot Straps -->
 
         <!-- Scripts here -->
+        <script type="text/charsheet" id="sheet" src="txt/charsheet.txt"></script>
     </head>
     <body>
         <a href ="#">
@@ -67,10 +68,7 @@
             <a href="http://progressquest.com/links.php">Links</a>
         </nav>
 
-        <!-- Will be able to put more into at another time.
-            I just thought adding something in this project would be
-            at least nice.
-        -->
+        <br />
 
         <!-- Leaving this here for now.  -->
         <div class = "sig">
@@ -90,4 +88,27 @@
             Link to the web application source code: https://bitbucket.org/grumdrig/pq-web 
         </footer>
     </body>
+    <!-- Theeeeeseee things -->
+    <!-- Yeah, there's definitely a better way to do this. -->
+    <!-- I can't avoid this for now. -->
+    <script id="badge" type="text/html">
+        <table class="brag">
+            <tbody>
+                <tr>
+                    <td><a class="icon go">&#x2694;</a></td>
+                    <td>
+                        <div>
+                            <a class="go"><strong>$Traits.Name</strong></a> the $Traits.Race ($bestplot)
+                        </div>
+                        <div class="rc">Level $Traits.Level $Traits.Class</div>
+                        <div class="bs">$bestequip / $bestspell / $beststat</div>
+                    </td>
+                    <td>
+                        <a class="icon x" href="#">&#x2620;</a><br />
+                        <a class="sheet" href="#">&#x270F;</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </script>
 </html>
