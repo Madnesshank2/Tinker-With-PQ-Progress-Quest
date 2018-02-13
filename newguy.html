@@ -10,24 +10,59 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" type="image/x-icon" href="http://progressquest.com/favicon.ico">
-        
+
+        <!-- Scripts here -->
         <!-- External Style Sheet. -->
         <link href="css/stylesheet.css" rel="stylesheet" type="text/css"/>
 
         <!-- Boot Straps -->
-        <!-- Scripts here -->
     </head>
     <body>
-        <div>I'll work on something tomorrow</div>
-        
+        <div class="vbox window" id ="newguy">
+            <img src="img/swords.gif">
+            <span>Progress Quest - New Character</span>
+            <a id="quit"><img src="img/closeup.png"></a>
+        </div>
+
+        <div class="client">
+            <div class="hbox">
+                <label for="name">Name</label>
+                <input type="text" id="name" spellcheck="false">
+                <button id="randomName">?</button>
+            </div>
+            
+            <div class="hbox">
+                <fieldset class="vbox groupbox" id="races">
+                    <legend>Race</legend>
+                </fieldset>
+                
+                <div class="vbox">
+                    <div class="hbox">
+                        <fieldset class="vbox groupbox" id="classes">
+                            <legend>Classes</legend>
+                        </fieldset>
+                        
+                        <fieldset class="vbox groupbox" id="stats">
+                            <legend>Stats</legend>
+                            
+                            <!-- Will Work on more tomorrow. -->
+                            <table>
+                                
+                            </table>
+                        </fieldset>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- Will fixed later -->
         <footer>
             Just a side project, credit to grumdrig for making Progress Quest
-            and for releasing the source code. 
+            and for releasing the source code.
 
             Currently fiddled with by LoafGatrWitch
 
-            Link to the web application source code: https://bitbucket.org/grumdrig/pq-web 
+            Link to the web application source code: https://bitbucket.org/grumdrig/pq-web
         </footer>
     </body>
 </html>
