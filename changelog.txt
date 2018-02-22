@@ -1,0 +1,16 @@
+CHANGE LOG
+
+Files that have been completed:
+- Will list some once I get the time to do so.
+- 
+
+Update #1
+Date: Feb 22, 2018
+Notes:
+- Updated the README file and added a change log file.
+- Will update more regarding this project at some point today.
+
+--------
+
+Events prior to Feb 22, 2018 was not recorded. 
+However, I might be able to salvage that once I get around to it.
