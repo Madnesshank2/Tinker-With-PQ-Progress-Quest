@@ -3,6 +3,11 @@ Greetings to those that are reading this!
 
 I am LoafGatrWitch or LGW for short.
 
+# To dos
+Current: 
+- Add a change log to provide updates.
+- Add License file.
+
 # Details
 This is merely a random side project that I have. I will be tinkering with the source code of Progress quest. Specifically, the web application verison of progress Quest.
 
